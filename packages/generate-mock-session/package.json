@@ -1,0 +1,30 @@
+{
+  "name": "@telegram-apps/generate-mock-session",
+  "version": "1.0.0",
+  "description": "Generate mock sessions for Telegram Mini Apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "generate-mock-session": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "mini-apps",
+    "mock",
+    "session"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@next/env": "^13.4.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
