@@ -4,8 +4,22 @@ A simple CLI tool to generate mock sessions for Telegram Mini Apps.
 
 ## Installation
 
+You can install this package directly from GitHub:
+
 ```bash
-npm install -g @telegram-apps/generate-mock-session
+npm install github:caffeinum/telegram-apps#workspace=generate-mock-session
+```
+
+Or if you're using yarn:
+
+```bash
+yarn add github:caffeinum/telegram-apps#workspace=generate-mock-session
+```
+
+Or for pnpm:
+
+```bash
+pnpm add github:caffeinum/telegram-apps#workspace=generate-mock-session
 ```
 
 ## Usage

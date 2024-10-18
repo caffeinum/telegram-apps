@@ -1,5 +1,5 @@
 {
-  "name": "@telegram-apps/generate-mock-session",
+  "name": "generate-mock-session",
   "version": "1.0.0",
   "description": "Generate mock sessions for Telegram Mini Apps",
   "main": "dist/index.js",
